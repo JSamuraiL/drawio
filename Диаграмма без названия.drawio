@@ -5,7 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="q7exd5tkjFvMDpo2NH3d-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="1169" width="510" height="541" as="geometry" />
+          <mxGeometry x="1660" y="1170" width="510" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1710" width="510" height="430" as="geometry" />
         </mxCell>
         <mxCell id="q7exd5tkjFvMDpo2NH3d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-1" target="q7exd5tkjFvMDpo2NH3d-9">
           <mxGeometry relative="1" as="geometry" />
@@ -48,8 +51,73 @@
         <mxCell id="q7exd5tkjFvMDpo2NH3d-9" value="Рассчитать премию" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1830" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q7exd5tkjFvMDpo2NH3d-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="1200" width="30" height="60" as="geometry" />
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-15" value="Телефонщик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1724" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-21" value="Водитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-24" target="q7exd5tkjFvMDpo2NH3d-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-23" value="Рассчитанная стоимость" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-22">
+          <mxGeometry x="-0.246" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-24" value="Рассчитать стоимость переговоров" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-27" target="q7exd5tkjFvMDpo2NH3d-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1740" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-46" value="&lt;div&gt;Телефонная точка, ИНН,&lt;/div&gt;&lt;div&gt;расчетный счет в банке&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-45">
+          <mxGeometry x="0.051" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-27" value="Данные об абоненте" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-30" value="БД о звонках" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-31" target="q7exd5tkjFvMDpo2NH3d-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-47" value="Данные о&lt;div&gt;звонке&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-44">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-31" value="Зафиксировать звонок в БД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-33" target="q7exd5tkjFvMDpo2NH3d-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-41" value="Адреса городов А и Б" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-39">
+          <mxGeometry x="-0.6553" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-33" value="Город" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-34" target="q7exd5tkjFvMDpo2NH3d-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-40" value="Данные о времеи суток" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-38">
+          <mxGeometry x="-0.6455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-34" value="Время суток" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1730" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
