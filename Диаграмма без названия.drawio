@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Страница — 1" id="xGvXUVqkCXnOylCib6DV">
-    <mxGraphModel dx="2066" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-868" dy="-19" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1169" width="510" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-1" target="q7exd5tkjFvMDpo2NH3d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-12" value="Оценка качества&lt;div&gt;&amp;nbsp;перевозки&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-11">
+          <mxGeometry x="-0.246" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-1" value="Рассчитать стоимость перевозки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-3" target="q7exd5tkjFvMDpo2NH3d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-5" value="ФИО, стаж" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-4">
+          <mxGeometry x="-0.1909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-3" value="Данные о водителе" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7exd5tkjFvMDpo2NH3d-6" target="q7exd5tkjFvMDpo2NH3d-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="1415" />
+              <mxPoint x="1890" y="1415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-8" value="маршрут, водитель,&amp;nbsp;&lt;div&gt;даты отправки и прибытия&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7exd5tkjFvMDpo2NH3d-7">
+          <mxGeometry x="-0.2354" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-6" value="Информация о перевозках" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-9" value="Рассчитать премию" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7exd5tkjFvMDpo2NH3d-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1200" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
