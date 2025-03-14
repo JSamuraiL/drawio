@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Wq5ZTLz32C6b916gWCb0-1" value="Packet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="150" width="230" height="300" as="geometry">
+          <mxGeometry x="311" y="150" width="230" height="260" as="geometry">
             <mxRectangle x="370" y="310" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,10 +13,10 @@
           <mxGeometry y="30" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Wq5ZTLz32C6b916gWCb0-19" value="+ getSource(): InetAddress&lt;br&gt;+ getDestination(): InetAddress&lt;div&gt;+ getType(): Type&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ getDate(): Date&lt;div&gt;+ getBytes(): int&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;+ equals(o: Object): boolean&lt;br&gt;+ hashCode(): int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-1">
-          <mxGeometry y="130" width="230" height="170" as="geometry" />
+          <mxGeometry y="130" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Wq5ZTLz32C6b916gWCb0-10" value="&amp;lt;&amp;lt;utility&amp;gt;&amp;gt;&lt;br&gt;Builder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="620" width="280" height="370" as="geometry">
+          <mxGeometry x="286" y="490" width="280" height="370" as="geometry">
             <mxRectangle x="370" y="310" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -26,11 +26,19 @@
         <mxCell id="Wq5ZTLz32C6b916gWCb0-11" value="&lt;u&gt;+ aPacket(): Builder&lt;/u&gt;&lt;div&gt;+ withDate(date: String, pattern: String): Builder&lt;/div&gt;&lt;div&gt;+ withDate(date: Date): Builder&lt;br&gt;+ withDate(date: String): Builder&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ withBytes(bytes: String): Builder&lt;br&gt;+ withBytes(bytes: int): Builder&lt;/div&gt;&lt;div&gt;+ withType(type: Type): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withType(type: String): Builder&lt;br&gt;+ withType(type: Type): Builder&lt;br&gt;+ withSource(source: InetAddress): Builder&lt;br&gt;+ withSource(source: String): Builder&lt;div&gt;+ withDestination(destination: InetAddress): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withDestination(destination: String): Builder&lt;div&gt;+ but(): Builder&lt;br&gt;+ build(): Packet&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-10">
           <mxGeometry y="120" width="280" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-14" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;strokeWidth=1;endSize=22;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-10">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-14" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.502;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;strokeWidth=1;endSize=22;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-10" target="Wq5ZTLz32C6b916gWCb0-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="410" as="sourcePoint" />
             <mxPoint x="428.06999999999994" y="552.03" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-21" value="Packet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566" y="150" width="520" height="180" as="geometry">
+            <mxRectangle x="370" y="310" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-23" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolen&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-21">
+          <mxGeometry y="30" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
