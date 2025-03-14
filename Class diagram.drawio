@@ -37,7 +37,7 @@
             <mxRectangle x="370" y="310" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-23" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolen&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-21">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-23" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolean&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-21">
           <mxGeometry y="30" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
