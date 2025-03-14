@@ -65,15 +65,15 @@
           <mxGeometry y="30" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Wq5ZTLz32C6b916gWCb0-31" value="AbstractParser&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="500" width="450" height="220" as="geometry">
+          <mxGeometry x="350" y="500" width="450" height="320" as="geometry">
             <mxRectangle x="380.5" y="350" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Wq5ZTLz32C6b916gWCb0-33" value="# file: File&lt;br&gt;# resolveDomainAddress: boolean = false&lt;br&gt;- packetParsedListener: OnPacketParsedListener&amp;nbsp;&lt;br&gt;- fileParsedListener: OnFileParsedListener&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-31">
           <mxGeometry y="30" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-32" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolean&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-31">
-          <mxGeometry y="110" width="450" height="110" as="geometry" />
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-32" value="+ AbstractParser():&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(file: FIle):&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(filepath: String):&amp;nbsp;AbstractParser&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/span&gt;&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolean&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-31">
+          <mxGeometry y="110" width="450" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
