@@ -16,7 +16,7 @@
         <mxCell id="ELH_EoFufX17akkv9xCp-11" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="325" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ELH_EoFufX17akkv9xCp-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-11">
+        <mxCell id="ELH_EoFufX17akkv9xCp-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="500" as="sourcePoint" />
             <mxPoint x="170" y="460" as="targetPoint" />
@@ -28,13 +28,13 @@
         <mxCell id="ELH_EoFufX17akkv9xCp-15" value="Ученик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="705" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ELH_EoFufX17akkv9xCp-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-14">
+        <mxCell id="ELH_EoFufX17akkv9xCp-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="560" as="sourcePoint" />
             <mxPoint x="190" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ELH_EoFufX17akkv9xCp-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-15">
+        <mxCell id="ELH_EoFufX17akkv9xCp-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ELH_EoFufX17akkv9xCp-2" target="ELH_EoFufX17akkv9xCp-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="565" as="sourcePoint" />
             <mxPoint x="190" y="545" as="targetPoint" />
