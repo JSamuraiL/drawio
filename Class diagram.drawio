@@ -1,123 +1,123 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram name="Страница — 1" id="XYHAIz7-M4xYpszr3OcH">
-    <mxGraphModel dx="3339" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2887" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-1" value="Packet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-1" value="Packet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="710" y="480" width="230" height="260" as="geometry">
             <mxRectangle x="800" y="510" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-8" value="- date: Date&lt;div&gt;- bytes: int&lt;br&gt;- type: Type&lt;/div&gt;&lt;div&gt;- source: InetAddress&lt;br&gt;- destination: InetAddress&lt;br&gt;+ Type: enum&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-8" value="- date: Date&lt;div&gt;- bytes: int&lt;br&gt;- type: Type&lt;/div&gt;&lt;div&gt;- source: InetAddress&lt;br&gt;- destination: InetAddress&lt;br&gt;+ Type: enum&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-1" vertex="1">
           <mxGeometry y="30" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-19" value="+ getSource(): InetAddress&lt;br&gt;+ getDestination(): InetAddress&lt;div&gt;+ getType(): Type&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ getDate(): Date&lt;div&gt;+ getBytes(): int&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;+ equals(o: Object): boolean&lt;br&gt;+ hashCode(): int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-19" value="+ getSource(): InetAddress&lt;br&gt;+ getDestination(): InetAddress&lt;div&gt;+ getType(): Type&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ getDate(): Date&lt;div&gt;+ getBytes(): int&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;+ equals(o: Object): boolean&lt;br&gt;+ hashCode(): int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-1" vertex="1">
           <mxGeometry y="130" width="230" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-10" value="&amp;lt;&amp;lt;utility&amp;gt;&amp;gt;&lt;br&gt;Builder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-10" value="&amp;lt;&amp;lt;utility&amp;gt;&amp;gt;&lt;br&gt;Builder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="690" y="840" width="280" height="370" as="geometry">
             <mxRectangle x="790.5" y="580" width="79" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-18" value="- date: Date&lt;div&gt;- bytes: int&lt;br&gt;- type: Type&lt;/div&gt;&lt;div&gt;- source: InetAddress&lt;br&gt;- destination: InetAddress&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-10">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-18" value="- date: Date&lt;div&gt;- bytes: int&lt;br&gt;- type: Type&lt;/div&gt;&lt;div&gt;- source: InetAddress&lt;br&gt;- destination: InetAddress&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-10" vertex="1">
           <mxGeometry y="30" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-11" value="&lt;u&gt;+ aPacket(): Builder&lt;/u&gt;&lt;div&gt;+ withDate(date: String, pattern: String): Builder&lt;/div&gt;&lt;div&gt;+ withDate(date: Date): Builder&lt;br&gt;+ withDate(date: String): Builder&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ withBytes(bytes: String): Builder&lt;br&gt;+ withBytes(bytes: int): Builder&lt;/div&gt;&lt;div&gt;+ withType(type: Type): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withType(type: String): Builder&lt;br&gt;+ withType(type: Type): Builder&lt;br&gt;+ withSource(source: InetAddress): Builder&lt;br&gt;+ withSource(source: String): Builder&lt;div&gt;+ withDestination(destination: InetAddress): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withDestination(destination: String): Builder&lt;div&gt;+ but(): Builder&lt;br&gt;+ build(): Packet&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-10">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-11" value="&lt;u&gt;+ aPacket(): Builder&lt;/u&gt;&lt;div&gt;+ withDate(date: String, pattern: String): Builder&lt;/div&gt;&lt;div&gt;+ withDate(date: Date): Builder&lt;br&gt;+ withDate(date: String): Builder&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ withBytes(bytes: String): Builder&lt;br&gt;+ withBytes(bytes: int): Builder&lt;/div&gt;&lt;div&gt;+ withType(type: Type): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withType(type: String): Builder&lt;br&gt;+ withType(type: Type): Builder&lt;br&gt;+ withSource(source: InetAddress): Builder&lt;br&gt;+ withSource(source: String): Builder&lt;div&gt;+ withDestination(destination: InetAddress): Builder&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ withDestination(destination: String): Builder&lt;div&gt;+ but(): Builder&lt;br&gt;+ build(): Packet&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-10" vertex="1">
           <mxGeometry y="120" width="280" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-14" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;strokeWidth=1;endSize=22;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-10" target="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-14" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;strokeWidth=1;endSize=22;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-10" target="Wq5ZTLz32C6b916gWCb0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="618.5" y="1060" as="sourcePoint" />
             <mxPoint x="576.5699999999999" y="1202.03" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-21" value="Parser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-21" value="Parser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="605" y="240" width="450" height="140" as="geometry">
             <mxRectangle x="810" y="390" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-23" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolean&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-21">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-23" value="startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&amp;nbsp;&lt;br&gt;setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;getFile(): File&lt;div&gt;isResolveDomainAddress(): boolean&lt;br&gt;setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-21" vertex="1">
           <mxGeometry y="30" width="450" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-24" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-weight: 600; text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(240, 246, 252), rgb(237, 237, 237));&quot;&gt;OnFileParsedListener&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-24" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-weight: 600; text-align: start;&quot;&gt;&lt;font style=&quot;&quot;&gt;OnFileParsedListener&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-130" y="765" width="170" height="60" as="geometry">
             <mxRectangle x="529" y="30" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-25" value="parsed(): void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-24">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-25" value="parsed(): void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-24" vertex="1">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-27" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(237, 237, 237), rgb(247, 247, 247));&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b style=&quot;&quot;&gt;OnPacketParsedListener&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-27" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;OnPacketParsedListener&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="60" y="765" width="210" height="60" as="geometry">
             <mxRectangle x="740" y="20" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-28" value="parsed(packet: Packet): void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-27">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-28" value="parsed(packet: Packet): void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-27" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-29" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(237, 237, 237), rgb(239, 239, 239));&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b style=&quot;&quot;&gt;FileParserFactory&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-29" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;FileParserFactory&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="190" y="270" width="230" height="60" as="geometry">
             <mxRectangle x="640" y="190" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-30" value="&lt;u&gt;produce(filepath: String): Parser&lt;/u&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-29">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-30" value="&lt;u&gt;produce(filepath: String): Parser&lt;/u&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-29" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-31" value="AbstractParser&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-31" value="AbstractParser&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="600" y="1300" width="450" height="240" as="geometry">
             <mxRectangle x="770" y="630" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-33" value="# file: File&lt;br&gt;# resolveDomainAddress: boolean = false&lt;br&gt;- packetParsedListener: OnPacketParsedListener&amp;nbsp;&lt;br&gt;- fileParsedListener: OnFileParsedListener&amp;nbsp;&lt;div&gt;+ ParserStatus: enum&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-31">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-33" value="# file: File&lt;br&gt;# resolveDomainAddress: boolean = false&lt;br&gt;- packetParsedListener: OnPacketParsedListener&amp;nbsp;&lt;br&gt;- fileParsedListener: OnFileParsedListener&amp;nbsp;&lt;div&gt;+ ParserStatus: enum&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-31" vertex="1">
           <mxGeometry y="30" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-32" value="+ AbstractParser():&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(file: FIle):&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(filepath: String):&amp;nbsp;AbstractParser&lt;div&gt;+ getFile(): File&lt;br&gt;+ setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;&lt;div&gt;+ isResolveDomainAddress(): boolean&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-31">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-32" value="+ AbstractParser():&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(file: FIle):&amp;nbsp;AbstractParser&lt;br&gt;+ AbstractParser(filepath: String):&amp;nbsp;AbstractParser&lt;div&gt;+ getFile(): File&lt;br&gt;+ setPacketParsedListener(packetParsedListener: OnPacketParsedListener):&amp;nbsp;void&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ setResolveDomainAddress(resolveDomainAddress: boolean): void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ setFileParsedListener(fileParsedListener: OnFileParsedListener): void&lt;br&gt;&lt;div&gt;+ isResolveDomainAddress(): boolean&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-31" vertex="1">
           <mxGeometry y="110" width="450" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-34" value="&lt;div&gt;&amp;lt;&amp;lt;utility&amp;gt;&amp;gt;&lt;/div&gt;FileParserException&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-34" value="&lt;div&gt;&amp;lt;&amp;lt;utility&amp;gt;&amp;gt;&lt;/div&gt;FileParserException&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1300" width="290" height="190" as="geometry">
             <mxRectangle x="690" y="910" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-35" value="&lt;u&gt;- serialVersionUID: long = 1L&amp;nbsp;&lt;/u&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-34">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-35" value="&lt;u&gt;- serialVersionUID: long = 1L&amp;nbsp;&lt;/u&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-34" vertex="1">
           <mxGeometry y="30" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-36" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+&amp;nbsp;FileParserException(msg: String):&amp;nbsp;FileParserException&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;FileParserException(msg: String, e: Exc&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eption):&amp;nbsp;FileParserException&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-34">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-36" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+&amp;nbsp;FileParserException(msg: String):&amp;nbsp;FileParserException&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;FileParserException(msg: String, e: Exc&lt;span style=&quot;background-color: transparent;&quot;&gt;eption):&amp;nbsp;FileParserException&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-34" vertex="1">
           <mxGeometry y="110" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-37" value="Exception&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-37" value="Exception&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="1520" y="1380" width="160" height="30" as="geometry">
             <mxRectangle x="1000" y="980" width="290" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-38" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-37">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-38" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Wq5ZTLz32C6b916gWCb0-37" vertex="1">
           <mxGeometry y="30" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-39" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-37">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-39" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Wq5ZTLz32C6b916gWCb0-37" vertex="1">
           <mxGeometry y="110" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-40" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-34" target="Wq5ZTLz32C6b916gWCb0-37">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-40" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-34" target="Wq5ZTLz32C6b916gWCb0-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="950" y="1220" as="sourcePoint" />
             <mxPoint x="1020" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-42" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;strokeWidth=1;endSize=22;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-34" target="Wq5ZTLz32C6b916gWCb0-31">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-42" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;strokeWidth=1;endSize=22;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-34" target="Wq5ZTLz32C6b916gWCb0-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="451" y="1039" as="sourcePoint" />
             <mxPoint x="988.666666666667" y="1410.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-43" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-weight: 600;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(240, 246, 252), rgb(232, 232, 232));&quot;&gt;PCAPFileParser&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-43" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-weight: 600;&quot;&gt;&lt;font style=&quot;&quot;&gt;PCAPFileParser&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="320" y="745" width="290" height="100" as="geometry">
             <mxRectangle x="450" y="400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-44" value="+&amp;nbsp;PCAPFileParser(filepath: String):&amp;nbsp;PCAPFileParser&lt;br&gt;+&amp;nbsp;PCAPFileParser(file: File):&amp;nbsp;PCAPFileParser&lt;br&gt;+ startParse(): List&amp;lt;Packet&amp;gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-43">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-44" value="+&amp;nbsp;PCAPFileParser(filepath: String):&amp;nbsp;PCAPFileParser&lt;br&gt;+&amp;nbsp;PCAPFileParser(file: File):&amp;nbsp;PCAPFileParser&lt;br&gt;+ startParse(): List&amp;lt;Packet&amp;gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-43" vertex="1">
           <mxGeometry y="30" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-46" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;exitX=0.483;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-44" target="Wq5ZTLz32C6b916gWCb0-31">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-46" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;exitX=0.483;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-44" target="Wq5ZTLz32C6b916gWCb0-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="625" y="580" as="sourcePoint" />
             <mxPoint x="840" y="550" as="targetPoint" />
@@ -126,7 +126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-47" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-43" target="Wq5ZTLz32C6b916gWCb0-21">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-47" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-43" target="Wq5ZTLz32C6b916gWCb0-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="480" as="sourcePoint" />
             <mxPoint x="390" y="620" as="targetPoint" />
@@ -135,15 +135,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-48" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(232, 232, 232), rgb(249, 249, 249));&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;TXTFileParser&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-48" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;TXTFileParser&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1140" y="720" width="340" height="150" as="geometry">
             <mxRectangle x="450" y="400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-49" value="+&amp;nbsp;TXTFileParser(filepath: String):&amp;nbsp;TXTFileParser&lt;br&gt;+&amp;nbsp;TXTFileParser(file: File):&amp;nbsp;TXTFileParser&lt;br&gt;+&amp;nbsp;TXTFileParser():&amp;nbsp;TXTFileParser&lt;br&gt;+ startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;+ readStrings(strings: String): List&amp;lt;Packet&amp;gt;&lt;br&gt;+ readStrings(reader: BufferedReader): List&amp;lt;Packet&amp;gt;&lt;br&gt;+&amp;nbsp;parseStep(line: String): Packet &amp;lt;&amp;lt;FileParserException&amp;gt;&amp;gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wq5ZTLz32C6b916gWCb0-48">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-49" value="+&amp;nbsp;TXTFileParser(filepath: String):&amp;nbsp;TXTFileParser&lt;br&gt;+&amp;nbsp;TXTFileParser(file: File):&amp;nbsp;TXTFileParser&lt;br&gt;+&amp;nbsp;TXTFileParser():&amp;nbsp;TXTFileParser&lt;br&gt;+ startParse(): List&amp;lt;Packet&amp;gt;&lt;br&gt;+ readStrings(strings: String): List&amp;lt;Packet&amp;gt;&lt;br&gt;+ readStrings(reader: BufferedReader): List&amp;lt;Packet&amp;gt;&lt;br&gt;+&amp;nbsp;parseStep(line: String): Packet &amp;lt;&amp;lt;FileParserException&amp;gt;&amp;gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="Wq5ZTLz32C6b916gWCb0-48" vertex="1">
           <mxGeometry y="30" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-50" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-48" target="Wq5ZTLz32C6b916gWCb0-21">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-50" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-48" target="Wq5ZTLz32C6b916gWCb0-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="850" y="445" as="sourcePoint" />
             <mxPoint x="1105" y="380" as="targetPoint" />
@@ -152,7 +152,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-51" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-49" target="Wq5ZTLz32C6b916gWCb0-31">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-51" value="" style="endArrow=block;html=1;rounded=0;endSize=10;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-49" target="Wq5ZTLz32C6b916gWCb0-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="685" as="sourcePoint" />
             <mxPoint x="1155" y="730" as="targetPoint" />
@@ -161,57 +161,57 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-52" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-49" target="Wq5ZTLz32C6b916gWCb0-34">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-52" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-49" target="Wq5ZTLz32C6b916gWCb0-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1215" y="730" as="sourcePoint" />
             <mxPoint x="1100" y="762" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-53" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-43" target="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-53" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-43" target="Wq5ZTLz32C6b916gWCb0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="770" as="sourcePoint" />
             <mxPoint x="543" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-54" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-48" target="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-54" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-48" target="Wq5ZTLz32C6b916gWCb0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="561" y="595" as="sourcePoint" />
             <mxPoint x="510" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-55" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-21" target="Wq5ZTLz32C6b916gWCb0-1">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-55" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-21" target="Wq5ZTLz32C6b916gWCb0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="170" as="sourcePoint" />
             <mxPoint x="230" y="266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-58" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-23" target="Wq5ZTLz32C6b916gWCb0-27">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-58" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-23" target="Wq5ZTLz32C6b916gWCb0-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="706" as="sourcePoint" />
             <mxPoint x="288" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-59" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-32" target="Wq5ZTLz32C6b916gWCb0-27">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-59" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-32" target="Wq5ZTLz32C6b916gWCb0-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="34" y="780" as="sourcePoint" />
             <mxPoint x="360" y="1440" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-61" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-23" target="Wq5ZTLz32C6b916gWCb0-24">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-61" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-23" target="Wq5ZTLz32C6b916gWCb0-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="605" y="310" as="sourcePoint" />
             <mxPoint x="77" y="695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-62" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-32" target="Wq5ZTLz32C6b916gWCb0-24">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-62" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-32" target="Wq5ZTLz32C6b916gWCb0-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="549" y="1490" as="sourcePoint" />
             <mxPoint x="120" y="1015" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wq5ZTLz32C6b916gWCb0-63" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wq5ZTLz32C6b916gWCb0-29" target="Wq5ZTLz32C6b916gWCb0-23">
+        <mxCell id="Wq5ZTLz32C6b916gWCb0-63" value="" style="endArrow=open;html=1;rounded=0;endSize=10;endFill=0;dashed=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" source="Wq5ZTLz32C6b916gWCb0-29" target="Wq5ZTLz32C6b916gWCb0-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="489" y="240" as="sourcePoint" />
             <mxPoint x="-120" y="680" as="targetPoint" />
